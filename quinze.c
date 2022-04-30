@@ -5,6 +5,7 @@
 
 int main()
 {   float num1, num2, escolha;
+    int parar;
     do {
     printf(" digite 1 para SOMA,\n digite 2 para SUBTRAÇÃO, \n digite 3 para MULTIPLICAÇÃO,\n digite 4 para DIVISAO.\n");
     scanf("%f", &escolha);
@@ -23,12 +24,13 @@ int main()
     else if (escolha==4){
         printf("%.1f\n", num1/num2);
     }
+    else printf("Essa opção não existe.\n");
 
 
-
-    printf("Para parar o programa digite '-9999'\n\n");
+    printf("Para parar o programa digite '-9999'\n\n Para continuar, digite qualquer numero.");
+    scanf("%d", &parar);
     }
-    while ((escolha || num1 || num2) != -9999);
+    while (parar != -9999);
 
     return 0;
 }
