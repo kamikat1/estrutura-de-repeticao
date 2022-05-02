@@ -1,4 +1,8 @@
-//todos os numeros q dividem ambos os valores (2 q o usuari odigitar)
+//faça um programa que receba 2 números e mostre todos os numeros que dividem ambos os valores. 
+//Sejam a e b inteiros. Dizemos que a é divisível por b se existe um inteiro c, de
+//modo que bc = a. Dizemos também que b divide a, ou que b é um fator de a, ou que b é um
+//divisor de a. A notação correspondente é b\a
+
 #include <stdio.h>
 #include <stdlib.h>
 
